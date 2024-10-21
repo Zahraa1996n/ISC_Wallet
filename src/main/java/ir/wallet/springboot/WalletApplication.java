@@ -8,10 +8,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EnableJpaRepositories("ir.wallet.springboot.persistence.repo")
 @EntityScan("ir.wallet.springboot.persistence.model")
-public class SpringbootTutorialApplication {
+public class WalletApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootTutorialApplication.class, args);
+		SpringApplication.run(WalletApplication.class, args);
 	}
 
 }
